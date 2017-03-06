@@ -47,6 +47,10 @@ var rollDice = function() {
     return Math.floor(Math.random()*6);
 }
 
+// max_money
+// Can you review this please Goredbirds?
+// Also how is the 2 players supposed to work?
+
 var max_money = function() {
     if(ai1.money > ai2.money && ai1.money > ai3.money && ai1.money > player1.money && ai1.money > player1.money && ai1.money > player4.money && ai1.money > player3 && ai1.money > player2.money) {
         alert("Ai1 is in the lead with $" + ai1.money)
