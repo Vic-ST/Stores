@@ -47,6 +47,27 @@ var rollDice = function() {
     return Math.floor(Math.random()*6);
 }
 
+var max_money = function() {
+    if(ai1.money > ai2.money && ai1.money > ai3.money && ai1.money > player1.money && ai1.money > player1.money && ai1.money > player4.money && ai1.money > player3 && ai1.money > player2.money) {
+        alert("Ai1 is in the lead with $" + ai1.money)
+    }else if(player1.money > ai2.money && player1.money > player1.money && player1.money > ai1.money && player1.money > player1.money && player1.money > player4.money && player1.money > player3 && player1.money > player2.money) {
+        alert("You are in the lead with $" + player1.money)
+    }else if(ai2.money > ai1.money && ai2.money > ai3.money && ai2.money > player1.money && ai2.money > player1.money && ai2.money > player4.money && ai2.money > player3 && ai2.money > player2.money) {
+        alert("Ai2 is in the lead with $" + ai2.money)
+    }else if(ai3.money > ai2.money && ai3.money > ai1.money && ai3.money > player1.money && ai3.money > player1.money && ai3.money > player4.money && ai3.money > player3 && ai3.money > player2.money) {
+        alert("Ai3 is in the lead with $" + ai3.money)
+    }else if(ai1.money > ai2.money && ai1.money > ai3.money && ai1.money > player1.money && ai1.money > player1.money && ai1.money > player4.money && ai1.money > player3 && ai1.money > player2.money) {
+        alert("player2 is in the lead!");
+    }else if(player3.money > ai2.money && player3.money > ai3.money && player3.money > player1.money && player3.money > player1.money && player3.money > player4.money && player3.money > ai1 && player3.money > player2.money) {
+        alert("player3 is in the lead!");
+    }else if(player4.money > ai2.money && player4.money > ai3.money && player4.money > player1.money && player4.money > player1.money && player4.money > ai1.money && player4.money > player3 && player4.money > player2.money) {
+        alert("player4 is in the lead!");
+    }else{
+        alert("It is a tie between soplayer1(or all) of the leading players!")
+    }
+}
+
+
 var buyWorkers = function(ai) {
     if (Math.floor((ai.money - 5)/21) > 0) {
         var toBuy = Math.floor((ai.money - 10)/20);
