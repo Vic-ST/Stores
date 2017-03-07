@@ -1,7 +1,7 @@
 td {
     height: 50px;
     width: 50px;
-    border:0.5px solid black;
+    border:1px solid black;
     text-align: center;
 }
 
@@ -51,7 +51,7 @@ h6, summary {
 .owners {
     text-align:center;
 }
-si {
+span {
     color: blue;
 }
 
