@@ -7,7 +7,7 @@ Read the Stores Wiki for more.
 # Rules
 <hr/>
 <h2>You and three other nefarious business-men with expensive suits are racing to be the first to own $500,000</h2>
-<ul>
+<ul id="rules">
 <li>The goal of the game is to earn $500,000 as quick as possible.</li>
 <li>You start out with 15 dollars.</li>
 <li>Every turn, you choose how many workers to buy. Workers cost 20 dollars each.</li>
@@ -22,3 +22,4 @@ Read the Stores Wiki for more.
 <li>Make that you can have 2-4 players</li>
 </ol>
 <p>More upgrades? Fork this and create a pull request.</p>
+<h1>Obey the <a href="#rules">rule</a> or you will pay later.....</h1>
