@@ -58,3 +58,8 @@ span {
 .meter {
     margin:auto;
 }
+
+a {
+    color:blue;
+    text-decoration:none;
+}
