@@ -33,6 +33,16 @@ var beginRound = function() {
         
         ask();
     }
+    /*var buyBiggerWorkers = function(ai) {
+        if (Math.floor((ai.money - 5)/21) > 0) {
+            var toBuy = Math.floor((ai.money - 10)/20);
+            var cost = toBuy * 50;
+            ai.employee += toBuy;
+            ai.money -= cost;
+        }
+        confirm(ai.name + " bought " + ai.employee + " workers");
+    }
+    
     var youBuyBiggerWorkers = function() {
         var ask = function() {
             var max = Math.floor(me.money/50);
@@ -44,23 +54,24 @@ var beginRound = function() {
                 alert("Sorry! That is not a number!");
                 ask();
             } else {
-                var cost = askP*20;
-                me.workers += askP;
+                var cost = askP*50;
+                me.employee += askP;
                 me.money -= cost;
-                confirm("You bought " + me.workers + " workers");
+                confirm("You bought " + me.employee + " employees");
             }
         }
         
         if(me.money >= 50) {
         	ask();
         }
-    }
+    }*/
         
     
     youBuyWorkers();
     buyWorkers(ai1);
     buyWorkers(ai2);
     buyWorkers(ai3);
+    //youBuyBiggerWorkers()
     
     var getMoneyW = function(p) {
         pValue = p.workers * 5 + 5;
