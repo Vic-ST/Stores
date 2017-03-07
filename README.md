@@ -1,4 +1,6 @@
 # Stores
-This a repo for me and @Goredbirds game. This game is called stores. Go Yankees!
+This a repo for me and @Goredbirds game. This game is called stores. Go Yankee
 
-Please read the Stores Wiki for more.
+Read the Stores Wiki for more.
+
+# Rules
