@@ -22,4 +22,4 @@ Read the Stores Wiki for more.
 <li>Make that you can have 2-4 players</li>
 </ol>
 <p>More upgrades? Fork this and create a pull request.</p>
-<h1>Obey the <a href="#rules">rule</a> or you will pay later.....</h1>
+<h1>Obey the <a href="#rules">rules</a> or you will pay later.....</h1>
