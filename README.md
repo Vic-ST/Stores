@@ -2,7 +2,7 @@
 <hr/>
 This a repo for me and @Goredbirds game. This game is called stores. Go Yankees
 
-Read the Stores Wiki for more.
+Read the <a href="https://github.com/StevenCopeland/Stores/wiki">Stores Wiki</a> for more.
 
 ## Rules
 <hr/>
