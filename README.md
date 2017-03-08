@@ -1,6 +1,6 @@
 # Stores
 <hr/>
-This a repo for me and @Goredbirds game. This game is called stores. Go Yankee
+This a repo for me and @Goredbirds game. This game is called stores. Go Yankees
 
 Read the Stores Wiki for more.
 
@@ -22,4 +22,9 @@ Read the Stores Wiki for more.
 <li>Adding upgraded workers</li>
 <li>Make that you can have 2-4 players</li>
 </ol>
+<<<<<<< HEAD
 <p>More upgrades? Fork this and create a pull request.</p>
+=======
+<p>More upgrades? Fork this and create a pull request.</p>
+<h1>Obey the <a href="#rules">rules</a> or you will pay later.....</h1>
+>>>>>>> 136ce4f267e831ce55d5d6bc70aa6b125451ab3e
