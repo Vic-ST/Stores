@@ -53,6 +53,8 @@ h6, summary {
 }
 span {
     color: blue;
+    font-style:italic;
+    font-weight:bold;
 }
 
 .meter {
