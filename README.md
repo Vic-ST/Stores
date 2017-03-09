@@ -13,7 +13,7 @@ Read the <a href="https://github.com/StevenCopeland/Stores/wiki">Stores Wiki</a>
 <li>Every turn, you choose how many workers to buy. Workers cost 20 dollars each.</li>
 <li>For every worker you buy, your productivity increases.</li>
 <li>Whoever gets $500,000 first, wins!</li>
-<li>(Coming soon!) If you have $50 at the end of the round then you will be able to buy one/many employees</li>
+<!--<li>(Coming soon!) If you have $50 at the end of the round then you will be able to buy one/many employees</li>-->
 </ul>
 
 ## Upgrades
