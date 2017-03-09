@@ -4,8 +4,8 @@ function player(name) {
   	this.money = 15,
   	this.name = name,
 	this.shares = 5,
-    this.worker = 0,'
-    this.employee = 0
+    	this.worker = 0,
+    	this.employee = 0
 }
 
 var me = new player("Bob")
