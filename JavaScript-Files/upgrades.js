@@ -20,3 +20,15 @@ var buy = function(person) {
     }
 }
 */
+
+var upgrades = function() {
+	if(me.money <= 100) {
+		var buy = prompt("You can buy some workers! How many would you like to buy?");
+		if(buy <= 0) {
+			alert("Its okay if you don't want buy any!");
+		}else if(buy >= 1) {
+			var spent = buy;
+			me.worker += spent
+		}
+	}
+}
