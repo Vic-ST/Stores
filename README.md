@@ -1,4 +1,4 @@
-# Stores
+# ***Stores***
 <hr/>
 This a repo for me and @Goredbirds game. This game is called stores. Go Yankees
 
@@ -13,7 +13,7 @@ Read the <a href="https://github.com/StevenCopeland/Stores/wiki">Stores Wiki</a>
 <li>Every turn, you choose how many workers to buy. Workers cost 20 dollars each.</li>
 <li>For every worker you buy, your productivity increases.</li>
 <li>Whoever gets $500,000 first, wins!</li>
-<li>(Coming soon!) If you have $50 at the end of the round then you will be able to buy one/many employees</li>
+<!--<li>(Coming soon!) If you have $50 at the end of the round then you will be able to buy one/many employees</li>-->
 </ul>
 
 ## Upgrades
@@ -22,9 +22,4 @@ Read the <a href="https://github.com/StevenCopeland/Stores/wiki">Stores Wiki</a>
 <li>Adding upgraded workers</li>
 <li>Make that you can have 2-4 players</li>
 </ol>
-<<<<<<< HEAD
 <p>More upgrades? Fork this and create a pull request.</p>
-=======
-<p>More upgrades? Fork this and create a pull request.</p>
-<h1>Obey the <a href="#rules">rules</a> or you will pay later.....</h1>
->>>>>>> 136ce4f267e831ce55d5d6bc70aa6b125451ab3e
