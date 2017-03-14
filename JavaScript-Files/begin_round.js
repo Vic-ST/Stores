@@ -110,20 +110,44 @@ var beginRound = function() {
         }
     }
     taxPayer();
-    var checkWinner = function(pl) {
-        if (pl.money >= 500000) {
-            winner = pl;
-            beginRound = function() {
-                confirm(winner.name  + " won with " + winner.money + "!");
-            }
-            beginRound();
-            money_to_earn = function() {
-                confirm("The game is over. " + winner.name + " won with " + winner.money + "!");
+    var checkWinner = function() {
+        var list = [];
+        var cMoney = function(pl) {
+            if (pl.money > 500000) {
+                list.push(pl)
             }
         }
+        cMoney(me);
+        cMoney(ai1);
+        cMoney(ai2);
+        cMoney(ai3);
+        if (list.length == 1) {
+            winner1 = list[0];
+            beginRound = function() {
+                confirm(winner1.name + " won with " + winner1.money + "!");
+            }
+            beginRound();
+        } else if (list.length == 2) {
+            winner1 = list[0];
+            winner2 = list[1];
+            beginRound = function() {
+                confirm(winner1.name + " and " + winner2.name + " both won with over 500,000!");
+            }
+            beginRound();
+        } else if (list.length == 3) {
+            winner1 = list[0];
+            winner2 = list[1];
+            winner3 = list[2];
+            beginRound = function() {
+                confirm(winner1.name + ", " + winner2.name + ", and " + winner3.name + " won with over 500,000!");
+            }
+            beginRound();
+        } else if (list.length == 4) {
+            beginRound = function() {
+                confirm("Everybody won with over 500,000!");
+            }
+            beginRound();
+        }
     }
-    checkWinner(ai1);
-    checkWinner(ai2);
-    checkWinner(ai3);
-    checkWinner(me);
+    checkWinner();
 }
