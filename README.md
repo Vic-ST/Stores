@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/StevenCopeland/Stores.png?label=ready&title=Ready)](https://waffle.io/StevenCopeland/Stores)
 # ***Stores***
 <hr/>
 This a repo for me and @Goredbirds game. This game is called stores. Go Yankees
