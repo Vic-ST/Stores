@@ -17,3 +17,14 @@ var ai1 = new player("AI1");
 var ai2 = new player("AI2");
 var ai3 = new player("AI3");
 var winner;
+
+if(me.money >= 50) {
+    var buy_emp = prompt("Would you like to buy some employees? If so, please write yes in lowercase.");
+    if(buy_emp === "yes") {
+        var buy_how_many = prompt("How many would you like to buy?");
+        employee += buy_how_many;
+        alert("You bought: " + buy_how_many);
+    }else{
+        alert("Okay then. No employees for you!")
+    }
+}
