@@ -1,5 +1,6 @@
 
 [![Stories in Ready](https://badge.waffle.io/StevenCopeland/Stores.png?label=ready&title=Ready)](https://waffle.io/StevenCopeland/Stores)
+[ ![Codeship Status for StevenCopeland/Stores](https://app.codeship.com/projects/dfe84640-e675-0134-436e-7ae8f44ec953/status?branch=master)](https://app.codeship.com/projects/206824)
 
 # ***Stores***
 <hr/>
