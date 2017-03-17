@@ -48,7 +48,7 @@
                     var cost = askP*20;
                     other.workers += askP;
                     other.money -= cost;
-                    confirm("You bought " + other.workers + " workers");
+                    confirm("Person 2 bought " + other.workers + " workers");
                 }
             }
 
