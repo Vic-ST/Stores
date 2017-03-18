@@ -2,6 +2,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9fd51a1838694d5d9a7247bdb0b9623b)](https://www.codacy.com/app/StevenCopeland/Stores?utm_source=github.com&utm_medium=referral&utm_content=StevenCopeland/Stores&utm_campaign=badger)
 [![Stories in Ready](https://badge.waffle.io/StevenCopeland/Stores.png?label=ready&title=Ready)](https://waffle.io/StevenCopeland/Stores)
 [ ![Codeship Status for StevenCopeland/Stores](https://app.codeship.com/projects/dfe84640-e675-0134-436e-7ae8f44ec953/status?branch=master)](https://app.codeship.com/projects/206824)
+[![Join the chat at https://gitter.im/stores](https://gitter.im/stores)
 
 # ***Stores***
 <hr/>
