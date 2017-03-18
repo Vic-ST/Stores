@@ -28,7 +28,3 @@ Read the <a href="https://github.com/StevenCopeland/Stores/wiki">Stores Wiki</a>
 <li>Make that you can have 2-4 players</li>
 </ol>
 <p>More upgrades? Fork this and create a pull request.</p>
-
-## The latest graph
-
-![Throughput Graph](https://graphs.waffle.io/StevenCopeland/Stores/throughput.svg)(https://waffle.io/StevenCopeland/Stores/metrics/throughput)
