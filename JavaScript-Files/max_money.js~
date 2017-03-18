@@ -10,6 +10,6 @@ var max_money = function() {
     }else if(other.money > ai2.money && other.money > me.money && other.money > ai1.money && other.money > ai3.money) {
         alert("Ai3 is in the lead with $" + ai3.money);
     }else{
-        alert("It is a tie between some(or all) of the leading players!");
+        alert("It is a tie between some(or all) of the leading players!")
     }
 };
