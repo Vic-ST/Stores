@@ -6,9 +6,6 @@ function player(name) {
     this.shares = 5,
     this.employee = 0,
     this.janitor = 0;
-    /*this.boss = 0,
-    this.ceo = 0,
-    this.bod = 0*/
 }
 
 var me = new player("You");
