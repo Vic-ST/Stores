@@ -15,7 +15,7 @@ $(document).ready(function() {
         $(".game").fadeIn(1000);
     });
     $(".hide").click(function() { 
-        $(".hide, .back").fadeOut(1000);
+        $(".hide, .back").fadeOut(1000)
     });
     $(".goTGame").click(function() {
         $(".rules").hide(1000);
