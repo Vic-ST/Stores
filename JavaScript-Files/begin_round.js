@@ -122,8 +122,8 @@
 
         var taxPayer = function() {
             round += 1;
-            var rounds_left_until_tax_day = 6 - round;
-            alert("The round is round " + round + " which means you have " + rounds_left_until_tax_day + " days until taxday.");
+            var roundsLeftUntilTaxDay = 6 - round;
+            alert("The round is round " + round + " which means you have " + roundsLeftUntilTaxDay + " days until taxday.");
             if(round === 6) {
                 alert("Tax day: Everybody loses 10% of their money.");
                 other.money *= 0.90;
