@@ -4,6 +4,8 @@
 [ ![Codeship Status for StevenCopeland/Stores](https://app.codeship.com/projects/dfe84640-e675-0134-436e-7ae8f44ec953/status?branch=master)](https://app.codeship.com/projects/206824)
 
 # ***Stores***
+
+[![Join the chat at https://gitter.im/Stores/Stores-1](https://badges.gitter.im/Stores/Stores-1.svg)](https://gitter.im/Stores/Stores-1?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <hr/>
 This a repo for me and @Goredbirds game. This game is called stores. Go Yankees
 
