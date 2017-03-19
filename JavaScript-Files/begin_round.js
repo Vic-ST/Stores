@@ -33,7 +33,7 @@
 
             ask();
         };
-        
+        //TODO: Add more people
         var otherPersonBuyWorkers = function() {
             var ask = function() {
                 var max = Math.floor(other.money/20);
@@ -54,6 +54,7 @@
 
             ask();
         };
+        //TODO: Add upgraded workers
         /*var buyBiggerWorkers = function(ai) {
             if (Math.floor((ai.money - 5)/21) > 0) {
                 var toBuy = Math.floor((ai.money - 10)/20);
@@ -146,20 +147,20 @@
             cMoney(ai2);
             cMoney(ai3);
             cMoney(other);
-            if (list.length == 1) {
+            if (list.length === 1) {
                 winner1 = list[0];
                 beginRound = function() {
                     confirm(winner1.name + " won with " + winner1.money + "!");
                 };
                 beginRound();
-            } else if (list.length == 2) {
+            } else if (list.length === 2) {
                 winner1 = list[0];
                 winner2 = list[1];
                 beginRound = function() {
                     confirm(winner1.name + " and " + winner2.name + " both won with over 500,000!");
                 };
                 beginRound();
-            } else if (list.length == 3) {
+            } else if (list.length === 3) {
                 winner1 = list[0];
                 winner2 = list[1];
                 winner3 = list[2];
@@ -167,7 +168,7 @@
                     confirm(winner1.name + ", " + winner2.name + ", and " + winner3.name + " won with over 500,000!");
                 };
                 beginRound();
-            }else if(list.length == 4) {
+            }else if(list.length === 4) {
                 winner1 = list[0];
                 winner2 = list[1];
                 winner3 = list[2];
@@ -175,7 +176,7 @@
                     confirm(winner1.name + ", " + winner2.name + ", " + winner3.name + ", and " + winner4.name +" won with over 500,000!");
                 };
                 beginRound();
-            } else if (list.length == 5) {
+            } else if (list.length === 5) {
                 beginRound = function() {
                     confirm("Everybody won with over 500,000!");
                 };
