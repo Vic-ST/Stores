@@ -97,6 +97,7 @@
             getMoneyW(pl);
             getMoneyW(pl);
             getMoneyW(pl);
+            getMoneyW(pl);
             if (pl === me) {
                 confirm(pl.name + " have " + pl.money + " dollars");
             } else {
@@ -106,6 +107,7 @@
         };
         
         getMoneyM(other);
+        getMoneyM(person)
         getMoneyM(me);
         getMoneyM(ai1);
         getMoneyM(ai2);
