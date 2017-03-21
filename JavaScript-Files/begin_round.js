@@ -107,7 +107,7 @@
         };
         
         getMoneyM(other);
-        getMoneyM(person)
+        getMoneyM(person);
         getMoneyM(me);
         getMoneyM(ai1);
         getMoneyM(ai2);
@@ -137,7 +137,7 @@
                     list.push(pl);
                 }
             };
-            cMoney(person)
+            cMoney(person);
             cMoney(me);
             cMoney(ai1);
             cMoney(ai2);
