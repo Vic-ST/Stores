@@ -55,51 +55,20 @@
             ask();
         };
         //TODO: Add upgraded workers
-        /*var buyBiggerWorkers = function(ai) {
-            if (Math.floor((ai.money - 5)/21) > 0) {
-                var toBuy = Math.floor((ai.money - 10)/20);
-                var cost = toBuy * 50;
-                ai.employee += toBuy;
-                ai.money -= cost;
-            }
-            confirm(ai.name + " bought " + ai.employee + " workers");
-        }
 
-        var youBuyBiggerWorkers = function() {
-            var ask = function() {
-                var max = Math.floor(me.money/50);
-                var askP = prompt("How many employees would you like to buy? You have " + me.money + " dollars. The most you can buy is " + max)*1;
-                if (me.money - (askP * 50) < 0) {
-                    confirm("Oops! Sorry, it looks like you don't have enough money.");
-                    ask();
-                }else if(isNaN(askP)) {
-                    alert("Sorry! That is not a number!");
-                    ask();
-                } else {
-                    var cost = askP*50;
-                    me.employee += askP;
-                    me.money -= cost;
-                    confirm("You bought " + me.employee + " employees");
-                }
-            }
-
-            if(me.money >= 50) {
-                ask();
-            }
-        }*/
-
+        //TODO: Add a new way to add people.
         otherPersonBuyWorkers();
         youBuyWorkers();
         buyWorkers(ai1);
         buyWorkers(ai2);
         buyWorkers(ai3);
-        //youBuyBiggerWorkers()
 
         var getMoneyW = function(p) {
             pValue = p.workers * 5 + 5;
             money = rollDice() * pValue;
             p.money += money;
         };
+        
         var getMoneyM = function(pl) {
             getMoneyW(pl);
             getMoneyW(pl);
@@ -119,7 +88,8 @@
         getMoneyM(ai1);
         getMoneyM(ai2);
         getMoneyM(ai3);
-
+        
+        //TODO: Vary this to.
         var taxPayer = function() {
             round += 1;
             var roundsLeftUntilTaxDay = 6 - round;
