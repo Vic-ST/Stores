@@ -158,7 +158,7 @@
                     list.push(pl);
                 }
             };
-            cMoney(newPerson)
+            cMoney(newPerson);
             cMoney(person);
             cMoney(me);
             cMoney(ai1);
