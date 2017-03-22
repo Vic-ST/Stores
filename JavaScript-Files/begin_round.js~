@@ -34,7 +34,7 @@
 
             ask();
         };
-        
+        //TODO: Add more people
         var otherPersonBuyWorkers = function() {
             var ask = function() {
                 var max = Math.floor(other.money/20);
@@ -75,28 +75,9 @@
 
             ask();
         };
-        var newPersonPersonBuyWorkers = function() {
-            var ask = function() {
-                var max = Math.floor(newPerson.money/20);
-                var askP = prompt("How many workers would you like to buy? You have " + newPerson.money + " dollars. The most you can buy is " + max)*1;
-                if (newPerson.money - (askP * 20) < 0) {
-                    confirm("Oops! Sorry, it looks like you don't have enough money.");
-                    ask();
-                }else if(isNaN(askP)) {
-                    alert("Sorry! That is not a number!");
-                    ask();
-                } else {
-                    var cost = askP*20;
-                    newPerson.workers += askP;
-                    newPerson.money -= cost;
-                    confirm("Person 4 bought " + newPerson.workers + " workers");
-                }
-            };
+        //TODO: Add upgraded workers
 
-            ask();
-        };
-        
-        newPersonPersonBuyWorkers();
+        //TODO: Add a new way to add people.
         personPersonBuyWorkers();
         otherPersonBuyWorkers();
         youBuyWorkers();
@@ -117,7 +98,6 @@
             getMoneyW(pl);
             getMoneyW(pl);
             getMoneyW(pl);
-            getMoneyW(pl);
             if (pl === me) {
                 confirm(pl.name + " have " + pl.money + " dollars");
             } else {
@@ -126,7 +106,6 @@
             pl.workers = 0;
         };
         
-        getMoney(newPerson);
         getMoneyM(other);
         getMoneyM(person);
         getMoneyM(me);
@@ -134,13 +113,13 @@
         getMoneyM(ai2);
         getMoneyM(ai3);
         
+        //TODO: Vary this to.
         var taxPayer = function() {
             round += 1;
             var roundsLeftUntilTaxDay = 6 - round;
             alert("The round is round " + round + " which means you have " + roundsLeftUntilTaxDay + " days until taxday.");
             if(round === 6) {
                 alert("Tax day: Everybody loses 10% of their money.");
-                newPerson.money *= 0.90;
                 person.money *= 0.90;
                 other.money *= 0.90;
                 me.money *= 0.90;
@@ -158,7 +137,6 @@
                     list.push(pl);
                 }
             };
-            cMoney(newPerson)
             cMoney(person);
             cMoney(me);
             cMoney(ai1);
@@ -208,29 +186,7 @@
                     confirm(winner1.name + ", " + winner2.name + ", " + winner3.name + ", " + winner4.name + ", and " + winner5.name + " won with over 500,000!");
                 };
                 beginRound();
-           }else if(list.length === 6) {
-                winner1 = list[0];
-                winner2 = list[1];
-                winner3 = list[2];
-                winner4 = list[3];
-                winner5 = list[4];
-                winner6 = list[5];
-                beginRound = function() {
-                    confirm(winner1.name + ", " + winner2.name + ", " + winner3.name + ", " + winner4.name + ", "  + winner5.name + ", and " + winner6.name + " won with over 500,000!");
-                };
-            }else if(list.length === 7) {
-                winner1 = list[0];
-                winner2 = list[1];
-                winner3 = list[2];
-                winner4 = list[3];
-                winner5 = list[4];
-                winner6 = list[5];
-                winner7 = list[6];
-                beginRound = function() {
-                    confirm(winner1.name + ", " + winner2.name + ", " + winner3.name + ", " + winner4.name + ", "  + winner5.name + ", " + winner6.name + ", and " + winner7.name + " won with over 500,000!");
-                };
-                beginRound();
-            } else if (list.length === 8) {
+            } else if (list.length === 6) {
                 beginRound = function() {
                     confirm("Everybody won with over 500,000!");
                 };
