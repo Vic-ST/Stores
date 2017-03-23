@@ -17,7 +17,7 @@
         var youBuyWorkers = function() {
             var ask = function() {
                 var max = Math.floor(me.money/20);
-                var askP = prompt("How many workers would you like to buy? You have " + me.money + " dollars. The most you can buy is " + max)*1;
+                var askP = prompt("How many workers would you like to buy? You have " + me.money + " dollars. The most you can buy is " + max, max)*1;
                 if (me.money - (askP * 20) < 0) {
                     confirm("Oops! Sorry, it looks like you don't have enough money.");
                     ask();
@@ -38,7 +38,7 @@
         var otherPersonBuyWorkers = function() {
             var ask = function() {
                 var max = Math.floor(other.money/20);
-                var askP = prompt("How many workers would you like to buy? You have " + other.money + " dollars. The most you can buy is " + max)*1;
+                var askP = prompt("How many workers would you like to buy? You have " + other.money + " dollars. The most you can buy is " + max, max)*1;
                 if (other.money - (askP * 20) < 0) {
                     confirm("Oops! Sorry, it looks like you don't have enough money.");
                     ask();
@@ -58,7 +58,7 @@
         var personPersonBuyWorkers = function() {
             var ask = function() {
                 var max = Math.floor(person.money/20);
-                var askP = prompt("How many workers would you like to buy? You have " + person.money + " dollars. The most you can buy is " + max)*1;
+                var askP = prompt("How many workers would you like to buy? You have " + person.money + " dollars. The most you can buy is " + max, max)*1;
                 if (person.money - (askP * 20) < 0) {
                     confirm("Oops! Sorry, it looks like you don't have enough money.");
                     ask();
@@ -78,7 +78,7 @@
         var newPersonPersonBuyWorkers = function() {
             var ask = function() {
                 var max = Math.floor(newPerson.money/20);
-                var askP = prompt("How many workers would you like to buy? You have " + newPerson.money + " dollars. The most you can buy is " + max)*1;
+                var askP = prompt("How many workers would you like to buy? You have " + newPerson.money + " dollars. The most you can buy is " + max, max)*1;
                 if (newPerson.money - (askP * 20) < 0) {
                     confirm("Oops! Sorry, it looks like you don't have enough money.");
                     ask();
