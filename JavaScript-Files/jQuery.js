@@ -5,11 +5,13 @@ $(document).ready(function() {
         $(".homePage").hide(1000);
         $(".rules").fadeIn(1000);
     });
+    
     $(".back").click(function() {
         $(".rules").hide(1000);
         $(".game").hide(1000);
         $(".homePage").fadeIn(1000);
     });
+    
     $(".gameButton").click(function() {
         $(".homePage").hide(1000);
         $(".game").fadeIn(1000);
