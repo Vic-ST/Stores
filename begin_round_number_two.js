@@ -127,8 +127,8 @@
         };
         
        /* getMoneyM(newPerson);
-        getMoneyM(other);*/
-        getMoneyM(person);
+        getMoneyM(person);*/
+        getMoneyM(other);
         getMoneyM(me);
         getMoneyM(ai1);
         getMoneyM(ai2);
