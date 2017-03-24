@@ -187,7 +187,7 @@
                     confirm(winner1.name + ", " + winner2.name + ", and " + winner3.name + " won with over 500,000!");
                 };
                 beginRound();
-            }else if(list.length === 4) {
+            /*}else if(list.length === 4) {
                 winner1 = list[0];
                 winner2 = list[1];
                 winner3 = list[2];
@@ -197,7 +197,7 @@
                     confirm(winner1.name + ", " + winner2.name + ", " + winner3.name + ", and " + winner4.name +" won with over 500,000!");
                 };
                 beginRound();
-           /*}else if(list.length === 5) {
+           }else if(list.length === 5) {
                 winner1 = list[0];
                 winner2 = list[1];
                 winner3 = list[2];
