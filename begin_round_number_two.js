@@ -1,6 +1,6 @@
     var round = 0;
 
-    var beginRound = function() {
+    var beginRound2 = function() {
         var rollDice = function() {
             return Math.floor(Math.random()*6);
         };
