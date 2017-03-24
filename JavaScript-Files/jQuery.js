@@ -8,6 +8,7 @@ $(document).ready(function() {
         $(".homePage").fadeOut(1000);
         $(".rules").fadeIn(1000);
     });
+    
     $(".back").click(function() {
         $(".rules").fadeOut(1000);
         $(".game").fadeOut(1000);

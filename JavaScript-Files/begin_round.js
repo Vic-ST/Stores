@@ -126,7 +126,8 @@
             pl.workers = 0;
         };
         
-       /* getMoneyM(newPerson);
+
+      /*getMoneyM(newPerson);
         getMoneyM(other);
         getMoneyM(person);*/
         getMoneyM(me);
