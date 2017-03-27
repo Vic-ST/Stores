@@ -1,6 +1,6 @@
-    var round = 0;
+var round = 0;
 
-    var beginRound = function() {
+    var beginRound4 = function() {
         var rollDice = function() {
             return Math.floor(Math.random()*6);
         };
@@ -35,7 +35,7 @@
             ask();
         };
         
-       /*var otherPersonBuyWorkers = function() {
+       var otherPersonBuyWorkers = function() {
             var ask = function() {
                 var max = Math.floor(other.money/20);
                 var askP = prompt("How many workers would you like to buy? You have " + other.money + " dollars. The most you can buy is " + max, max)*1;
@@ -72,7 +72,6 @@
                     confirm("Person 3 bought " + person.workers + " workers");
                 }
             };
-
             ask();
         };
         var newPersonPersonBuyWorkers = function() {
@@ -92,13 +91,12 @@
                     confirm("Person 4 bought " + newPerson.workers + " workers");
                 }
             };
-
             ask();
-        };*/
+        };
         
-        /*newPersonPersonBuyWorkers();
+        newPersonPersonBuyWorkers();
         personPersonBuyWorkers();
-        otherPersonBuyWorkers();*/
+        otherPersonBuyWorkers();
         youBuyWorkers();
         buyWorkers(ai1);
         buyWorkers(ai2);
@@ -126,10 +124,9 @@
             pl.workers = 0;
         };
         
-
-      /*getMoneyM(newPerson);
+        getMoneyM(newPerson);
         getMoneyM(other);
-        getMoneyM(person);*/
+        getMoneyM(person);
         getMoneyM(me);
         getMoneyM(ai1);
         getMoneyM(ai2);
@@ -141,9 +138,9 @@
             alert("The round is round " + round + " which means you have " + roundsLeftUntilTaxDay + " days until taxday.");
             if(round === 6) {
                 alert("Tax day: Everybody loses 10% of their money.");
-                /*newPerson.money *= 0.90;
+                newPerson.money *= 0.90;
                 person.money *= 0.90;
-                other.money *= 0.90;*/
+                other.money *= 0.90;
                 me.money *= 0.90;
                 ai1.money *= 0.90;
                 ai2.money *= 0.90;
@@ -159,9 +156,9 @@
                     list.push(pl);
                 }
             };
-            /*cMoney(newPerson);
             cMoney(other);
-            cMoney(person);*/
+            cMoney(newPerson);
+            cMoney(person);
             cMoney(me);
             cMoney(ai1);
             cMoney(ai2);
@@ -188,7 +185,7 @@
                     confirm(winner1.name + ", " + winner2.name + ", and " + winner3.name + " won with over 500,000!");
                 };
                 beginRound();
-            /*}else if(list.length === 4) {
+            }else if(list.length === 4) {
                 winner1 = list[0];
                 winner2 = list[1];
                 winner3 = list[2];
@@ -219,19 +216,7 @@
                 beginRound = function() {
                     confirm(winner1.name + ", " + winner2.name + ", " + winner3.name + ", " + winner4.name + ", "  + winner5.name + ", and " + winner6.name + " won with over 500,000!");
                 };
-            }else if(list.length === 7) {
-                winner1 = list[0];
-                winner2 = list[1];
-                winner3 = list[2];
-                winner4 = list[3];
-                winner5 = list[4];
-                winner6 = list[5];
-                winner7 = list[6];
-                beginRound = function() {
-                    confirm(winner1.name + ", " + winner2.name + ", " + winner3.name + ", " + winner4.name + ", "  + winner5.name + ", " + winner6.name + ", and " + winner7.name + " won with over 500,000!");
-                };
-                beginRound();
-            */} else if (list.length === 4) {
+            } else if (list.length === 7) {
                 beginRound = function() {
                     confirm("Everybody won with over 500,000!");
                 };
