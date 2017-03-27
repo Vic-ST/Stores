@@ -11,6 +11,7 @@
         }else{
             alert("Sorry! That number of player is not 2, 3, or 4. Remember you have to write the digit like: 2 or like: two.");
             howManyPlayers();
+        }
     };
 
     /*var beginRound = function() {
