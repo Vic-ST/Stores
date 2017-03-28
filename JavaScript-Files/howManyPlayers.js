@@ -1,5 +1,3 @@
-    var round = 0;
-
     var howManyPlayers = function() {
         howManyPlayersWanted = prompt("How many players would you like(you can only have 2-4 players)? Remeber that you have to write the digit name like this: 2 or like this: two");
         if(howManyPlayersWanted === "2" || howManyPlayersWanted === "two") {
