@@ -1,5 +1,5 @@
 var howManyPlayers = function() {
-    howManyPlayersWanted = prompt("How many players would you like(you can only have 2-4 players)? Remeber that you have to write the digit name like this: 2 or like this: two");
+    var howManyPlayersWanted = prompt("How many players would you like(you can only have 2-4 players)? Remeber that you have to write the digit name like this: 2 or like this: two");
     if(howManyPlayersWanted === "2" || howManyPlayersWanted === "two") {
         while(me.money < 500000 || other.money < 500000 || ai1.money < 500000 || ai2.money < 500000 || ai3.money < 500000) {
             beginRoundWith2();
