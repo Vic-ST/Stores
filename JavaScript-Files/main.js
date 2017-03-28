@@ -22,3 +22,4 @@ var ai3 = new player("AI3");
 
 
 var winner;
+var round = 0;
