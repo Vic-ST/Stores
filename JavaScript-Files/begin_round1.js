@@ -131,7 +131,7 @@
         getMoneyM(ai1);
         getMoneyM(ai2);
         getMoneyM(ai3);
-        
+        /*
         var taxPayer = function() {
             round += 1;
             var roundsLeftUntilTaxDay = 6 - round;
@@ -148,7 +148,7 @@
                 round = 0;
             }
         };
-        taxPayer();
+        taxPayer();*/
         var checkWinner = function() {
             var list = [];
             var cMoney = function(pl) {
