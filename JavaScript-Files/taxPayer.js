@@ -1,3 +1,5 @@
+var round = 0;
+
 var taxPayer = function(person1, person2, person3, person4, person5, person6, person7) {
 	round += 1;
 	var roundsLeftUntilTaxDay = 6 - round;
