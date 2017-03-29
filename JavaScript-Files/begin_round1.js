@@ -12,7 +12,7 @@
             confirm(ai.name + " bought " + ai.workers + " workers");
         };
         
-        var youBuyWorkers = function() {
+        /*var youBuyWorkers = function() {
             var ask = function() {
                 var max = Math.floor(me.money/20);
                 var askP = prompt("How many workers would you like to buy? You have " + me.money + " dollars. The most you can buy is " + max, max)*1;
@@ -97,7 +97,7 @@
         //newPersonPersonBuyWorkers();
         //personPersonBuyWorkers();
         otherPersonBuyWorkers();
-        youBuyWorkers();
+        youBuyWorkers();*/
         buyWorkers(ai1);
         buyWorkers(ai2);
         buyWorkers(ai3);
