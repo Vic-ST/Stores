@@ -6,7 +6,13 @@ function player(name) {
     //this.shares = 5
 }
 
-var me = new player("You");
+/*
+var player_ask_name = function() {
+    player1 = prompt("Hello! What is your name? This name will be used for Player 1")
+}
+*/
+
+var me = new player("Person 1");
 var other = new player("Person 2");
 var person = new player("Person 3");
 var newPerson = new player("Person 4");
@@ -16,3 +22,4 @@ var ai3 = new player("AI3");
 
 
 var winner;
+var round = 0;

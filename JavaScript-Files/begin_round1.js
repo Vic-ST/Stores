@@ -1,6 +1,4 @@
-    var round = 0;
-
-    var beginRound = function() {
+    var beginRoundWith2 = function() {
         var rollDice = function() {
             return Math.floor(Math.random()*6);
         };
@@ -96,8 +94,8 @@
             ask();
         };
         
-        newPersonPersonBuyWorkers();
-        personPersonBuyWorkers();
+        //newPersonPersonBuyWorkers();
+        //personPersonBuyWorkers();
         otherPersonBuyWorkers();
         youBuyWorkers();
         buyWorkers(ai1);
@@ -116,8 +114,8 @@
             getMoneyW(pl);
             getMoneyW(pl);
             getMoneyW(pl);
-            getMoneyW(pl);
-            getMoneyW(pl);
+            //getMoneyW(pl);
+            //getMoneyW(pl);
             if (pl === me) {
                 confirm(pl.name + " have " + pl.money + " dollars");
             } else {
@@ -126,9 +124,9 @@
             pl.workers = 0;
         };
         
-        getMoneyM(newPerson);
+        //getMoneyM(newPerson);
         getMoneyM(other);
-        getMoneyM(person);
+        //getMoneyM(person);
         getMoneyM(me);
         getMoneyM(ai1);
         getMoneyM(ai2);
@@ -140,8 +138,8 @@
             alert("The round is round " + round + " which means you have " + roundsLeftUntilTaxDay + " days until taxday.");
             if(round === 6) {
                 alert("Tax day: Everybody loses 10% of their money.");
-                newPerson.money *= 0.90;
-                person.money *= 0.90;
+                //newPerson.money *= 0.90;
+                //person.money *= 0.90;
                 other.money *= 0.90;
                 me.money *= 0.90;
                 ai1.money *= 0.90;
@@ -158,8 +156,8 @@
                     list.push(pl);
                 }
             };
-            cMoney(newPerson);
-            cMoney(person);
+            //cMoney(newPerson);
+            //cMoney(person);
             cMoney(me);
             cMoney(ai1);
             cMoney(ai2);
@@ -187,7 +185,7 @@
                     confirm(winner1.name + ", " + winner2.name + ", and " + winner3.name + " won with over 500,000!");
                 };
                 beginRound();
-            }else if(list.length === 4) {
+            /*}else if(list.length === 4) {
                 winner1 = list[0];
                 winner2 = list[1];
                 winner3 = list[2];
@@ -230,7 +228,7 @@
                     confirm(winner1.name + ", " + winner2.name + ", " + winner3.name + ", " + winner4.name + ", "  + winner5.name + ", " + winner6.name + ", and " + winner7.name + " won with over 500,000!");
                 };
                 beginRound();
-            } else if (list.length === 8) {
+            */} else if (list.length === 4) {
                 beginRound = function() {
                     confirm("Everybody won with over 500,000!");
                 };
