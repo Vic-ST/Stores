@@ -45,6 +45,7 @@
         getMoneyM(ai1);
         getMoneyM(ai2);
         getMoneyM(ai3);
+        /*
         var checkWinner = function() {
             var list = [];
             var cMoney = function(pl) {
@@ -133,3 +134,4 @@
         };
         checkWinner();
     };
+*/
