@@ -16,7 +16,7 @@
         buyWorkers(ai2);
         buyWorkers(ai3);
 
-        var getMoneyW = function(p) {
+        /*var getMoneyW = function(p) {
             pValue = p.workers * 5 + 5;
             money = rollDice() * pValue;
             p.money += money;
@@ -37,12 +37,11 @@
             }
             pl.workers = 0;
         };
-        
         //getMoneyM(newPerson);
         getMoneyM(other);
         //getMoneyM(person);
         getMoneyM(me);
         getMoneyM(ai1);
         getMoneyM(ai2);
-        getMoneyM(ai3);
+        getMoneyM(ai3);*/
     };
