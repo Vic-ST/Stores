@@ -1,5 +1,5 @@
 var beginRoundWith2 = function(checkWinner, getMoneyM, buyWorkers, buyWorkersComputer, taxPayer) {
-	checkWinner(me, person, ai2, ai3, , "", "");
+	checkWinner(me, person, ai2, ai3, , "", "", "");
 	getMoneyM(me);
 	getMoneyM(person);
 	getMoneyM(ai2);
