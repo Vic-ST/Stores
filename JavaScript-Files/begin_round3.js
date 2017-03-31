@@ -11,8 +11,6 @@ var beginRoundWith3 = function(checkWinner, getMoneyM, buyWorkers, buyWorkersCom
 	buyWorkers(person);
 	buyWorkers(other);
 	buyWorkers("");
-	buyWorkersComputer("");
-	buyWorkersComputer("");
 	buyWorkersComputer(ai3);
 	taxPayer(me, person, other, ai3, "", "", "");
 };
