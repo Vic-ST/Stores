@@ -1,4 +1,4 @@
-var beginRoundWith3 = function(checkWinner, getMoneyM, buyWorkers, buyWorkersComputer, taxPayer) {
+var beginRoundWith3 = function() {
 	checkWinner(me, person, other, ai3, , "", "", "");
 	getMoneyM(me);
 	getMoneyM(person);
