@@ -4,6 +4,7 @@
 [ ![Codeship Status for StevenCopeland/Stores](https://app.codeship.com/projects/dfe84640-e675-0134-436e-7ae8f44ec953/status?branch=master)](https://app.codeship.com/projects/206824)
 [![CodeFactor](https://www.codefactor.io/repository/github/stevencopeland/stores/badge)](https://www.codefactor.io/repository/github/stevencopeland/stores)
 [![Ebert](https://ebertapp.io/github/StevenCopeland/Stores.svg)](https://ebertapp.io/github/StevenCopeland/Stores)
+[![BCH compliance](https://bettercodehub.com/edge/badge/StevenCopeland/Stores)](https://bettercodehub.com/)
 
 # ***Stores***
 
