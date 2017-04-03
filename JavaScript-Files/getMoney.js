@@ -5,13 +5,9 @@ var getMoneyW = function(p) {
 };
 
 var getMoneyM = function(pl) {
-	getMoneyW(pl);
-	getMoneyW(pl);
-	getMoneyW(pl);
-	getMoneyW(pl);
-	getMoneyW(pl);
-	getMoneyW(pl);
-	getMoneyW(pl);
+	for(var i = 0; i < 7; i++) {
+		getMoneyW(pl);
+	}
 	if (pl === me) {
 		confirm(pl.name + " have " + pl.money + " dollars");
 	} else {
