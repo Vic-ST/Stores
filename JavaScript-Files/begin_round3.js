@@ -1,5 +1,5 @@
 var beginRoundWith3 = function() {
-	checkWinner(me, person, other, ai3, , "", "", "");
+	checkWinner(me, person, other, ai3, "NO", "NO", "NO");
 	getMoneyM(me);
 	getMoneyM(person);
 	getMoneyM(other);
