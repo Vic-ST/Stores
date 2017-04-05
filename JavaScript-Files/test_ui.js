@@ -11,12 +11,12 @@ var ai1  = new Player("Ai1");
 var ai2  = new Player("Ai2");
 var ai3  = new Player("Ai3");
 
-var begin_round = function() {
+var begin_Round = function() {
 	// Dice
 	var dice = Math.floor(Math.random() * 6) + 1;
 	
 	// Buy workers for player You
-	var buy_workers_you = function() {
+	var buy_Workers_You = function() {
 		var max = you.money/20;
 		var howMany = prompt("How many workerws would you like to buy? The most you can buy is " + max);
 		var ask = function() {
@@ -26,7 +26,9 @@ var begin_round = function() {
 			}else{
 				you.workers += howMany;
 				you.money - howMany * 20;
+				confirm("You bought " + howMany + " workers");
 			}
 		}
+		ask();
 	}
 };
