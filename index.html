@@ -1,57 +1,43 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <title>Stores Game</title>
             <link rel='stylesheet' href='style.css'/>
             <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-            <script src='JavaScript-Files/main.js'></script>
-            <script src="JavaScript-Files/getMoney.js"></script>
-            <script src="JavaScript-Files/getWorkers.js"></script>
-            <script src="JavaScript-Files/getWorkersComputer.js"></script>
-            <script src="JavaScript-Files/howManyPlayers.js"></script>
-            <script src="JavaScript-Files/begin_round1.js"></script>
-            <script src="JavaScript-Files/begin_round2.js"></script>
-            <script src="JavaScript-Files/begin_round3.js"></script>
-            <script src="JavaScript-Files/taxPayer.js"></script>
-            <script src="JavaScript-Files/money_to_earn.js"></script>
-            <script src="JavaScript-Files/jQuery.js"></script>
-            <script src="JavaScript-Files/Dice.js"></script>
-            <script src="JavaScript-Files/checkWinner.js"></script>
-            <script src="JavaScript-Files/max_money.js"></script>
         </head>
         <body>
+            <script src='script.js'></script>
             <div class="homePage">
                 <h1 class="title">Stores</h1>
-                <h3 class="owners">Made by the combined effort of <span><a href="https://github.com/goredbirds">GoRedbirds</a></span> and <span><a href="https://github.com/StevenCopeland">Steven.copeland</a></span></h3>
+                <h3 class="owners">Made by the combined effort of <a href='https://goredbirds.github.io/MyWebsite/'>GoRedbirds</a> and <a href='https://stevencopeland.github.io/Website/'>Steven.copeland</a></h3>
                 <div class="ruleButton" id="button">Rules</div>
                 <div class="gameButton" id="button">Play Game</div>
             </div>
-            <div class="game">
-                <table>
-                    <tr>
-                        <td>A</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>F</td>
-                    </tr>
-                    <tr>
-                        <td>B</td>
-                        <td colspan="2"><em><b>Stores</b></em></td>
-                        <td>E</td>
-                    </tr>
-                    <tr>
-                        <td>C</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>D</td>
-                    <tr>
-                </table>
+            <div class='game'>
+                <div class='gamei' id='button'>One player</div>
+                <div class='gameii' id='button'>Two player</div>
+                <div class='gameiii' id='button'>Three player</div>
+                <div class='gameiv' id='button'>Four player</div>
+            </div>
+            <div class="game1">
                 <p>
-                <button onclick="max_money()">Leader</button>
-                <button onclick="howManyPlayers()">Begin Round</button>
-                <button onclick="money_to_earn()">How much money you have left to earn</button></p>
-                <div class="back" id="button">Back</div>
-                <div class="hide" id="button">Hide back button</div>
+                <button onclick="beginRound1()" class="gameB">Begin Round</button>
+                </p>
+            </div>
+            <div class='game2'>
+                <p>
+                <button onclick='beginRound2()' class='gameB'>Begin round</button>
+                </p>
+            </div>
+            <div class='game3'>
+                <p>
+                <button onclick='beginRound3()' class='gameB'>Begin Round</button>
+                </p>
+            </div>
+            <div class='game4'>
+                <p>
+                <button onclick='beginRound4()' class='gameB'>Begin Round</button>
+                </p>
+            </div>
             <div class="rules">
                 <h2>You and three other nefarious business-men with expensive suits are racing to be the first to own $500,000</h2>
                 <ul>
@@ -59,7 +45,9 @@
                     <li>You start out with 15 dollars.</li>
                     <li>Every turn, you choose how many workers to buy. Workers cost 20 dollars each.</li>
                     <li>For every worker you buy, your productivity increases.</li>
+                    <li>Every 6 turns, everybody loses 10% of their money</li>
                     <li>Whoever gets $500,000 first, wins!</li>
+                    
                 </ul>
                 <details>
                 <summary>Credits</summary>
@@ -69,11 +57,10 @@
                 <h6>JS(redone): Steven.Copeland</h6>
                 <h6>CSS(redone): Steven.Copeland</h6>
                 <h6>HTML(redone): Steven.Copeland</h6>
-                <h6>jQuery effects: Steven.Copeland</h6>
+                <h6>All cool effects: Steven.Copeland</h6>
                 </details>
                 <div class="back" id="button">Back</div>
                 <div class="goTGame" id="button">Play Game!</div>
-                </div>
             </div>
-    </body>
-</html>
+        </body>
+    </html>
