@@ -30,6 +30,6 @@ Read the <a href="https://github.com/StevenCopeland/Stores/wiki">Stores Wiki</a>
 <hr/>
 <ol>
 <li>Adding upgraded workers</li>
-<li>Make that you can have 2-4 players</li>
+<li>Make that you can have 2-4 players ✅</li>
 </ol>
 <p>More upgrades? Fork this and create a pull request.</p>
