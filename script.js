@@ -1,9 +1,9 @@
 $(document).ready(function() {
     $(".rules").hide();
     $(".game1").hide();
-    $('.game2').hide();
-    $('.game3').hide();
-    $('.game4').hide();
+    $(".game2").hide();
+    $(".game3").hide();
+    $(".game4").hide();
     $(".game").hide();
     $(".ruleButton").click(function() {
         $(".homePage").hide(1000);
@@ -25,21 +25,21 @@ $(document).ready(function() {
         $(".rules").hide(1000);
         $(".game").fadeIn(1000);
     });
-    $('.gamei').click(function() {
+    $(".gamei").click(function() {
         $(".game").hide(1000);
         $(".game1").fadeIn(1000);
     });
-    $('.gameii').click(function() {
-        $('.game').hide(1000);
-        $('.game2').fadeIn(1000);
+    $(".gameii").click(function() {
+        $(".game").hide(1000);
+        $(".game2").fadeIn(1000);
     });
-    $('.gameiii').click(function() {
-        $('.game').hide(1000);
-        $('.game3').fadeIn(1000);
+    $(".gameiii").click(function() {
+        $(".game").hide(1000);
+        $(".game3").fadeIn(1000);
     });
-    $('.gameiv').click(function() {
-        $('.game').hide(1000);
-        $('.game4').fadeIn(1000);
+    $(".gameiv").click(function() {
+        $('.game").hide(1000);
+        $('.game4").fadeIn(1000);
     });
 });
 
@@ -55,11 +55,11 @@ var rollDice = function() {
 //make players
 var player1 = new player("#player1");
 var player2 = new player("player2");
-var player3 = new player('player3');
-var player4 = new player('player4');
-var ai1 = new player('AI1');
-var ai2 = new player('AI2');
-var ai3 = new player('AI3');
+var player3 = new player("player3");
+var player4 = new player("player4");
+var ai1 = new player("AI1");
+var ai2 = new player("AI2");
+var ai3 = new player("AI3");
 var playerList = [player1,player2,player3,player4,ai1,ai2,ai3];
 var round = 0;
 var winnerList = [];
