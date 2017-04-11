@@ -46,7 +46,7 @@ $(document).ready(function() {
 function player(name) {
     this.money = 15,
     this.workers = 0,
-    this.name = name
+    this.name = name;
 }
     
 var rollDice = function() {
