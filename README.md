@@ -17,14 +17,17 @@ Read the <a href="https://github.com/StevenCopeland/Stores/wiki">Stores Wiki</a>
 ## Rules
 <hr/>
 <h2>You and three other nefarious business-men with expensive suits are racing to be the first to own $500,000</h2>
+
 <ul id="rules">
-<li>The goal of the game is to earn $500,000 as quick as possible.</li>
-<li>You start out with 15 dollars.</li>
-<li>Every turn, you choose how many workers to buy. Workers cost 20 dollars each.</li>
-<li>For every worker you buy, your productivity increases.</li>
-<li>Whoever gets $500,000 first, wins!</li>
-<!--<li>(Coming soon!) If you have $50 at the end of the round then you will be able to buy one/many employees</li>-->
+<li>You and four other players are racing to see who can be the first to earn $500,000</li>
+<li>To begin, go to the game page and click on one of the buttons there(They should say *One player, *Two players, *Three players or Four players).</li>
+<li>You start out with $15</li>
+<li>Every turn, you choose how many workers to buy. Workers cost $20PW(<b>P</b>er <b>W</b>orker).</li>
+<li>For every worker you buy, you earn more money each round</li>
+<li>Whoever earns 500,000 first wins! Note: <i>It is possible for all four people to win.</i></li>
 </ul>
+
+###### * the other players will be computer controlled. There will be always four players playing.
 
 ## Upgrades
 <hr/>
