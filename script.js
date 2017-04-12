@@ -181,7 +181,7 @@ var beginRound2 = function() {
     cWinner(beginRound2);
 };
 var beginRound3 = function() {
-    if (player1.name === '#player1') {
+    if (player1.name === "#player1") {
         player1.name = prompt("What is the first player's name?");
         player2.name = prompt("What is the second player's name?");
         player3.name = prompt("What is the third player's name?");
@@ -198,7 +198,7 @@ var beginRound3 = function() {
     cWinner(beginRound3);
 };
 var beginRound4 = function() {
-    if (player1.name === '#player1') {
+    if (player1.name === "#player1") {
         player1.name = prompt("What is the first player's name?");
         player2.name = prompt("What is the second player's name?");
         player3.name = prompt("What is the third player's name?");
