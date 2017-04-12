@@ -194,7 +194,7 @@ var beginRound3 = function() {
     getMoneyM(player2);
     getMoneyM(player3);
     getMoneyM(ai1);
-    taxpayer();
+    taxPayer();
     cWinner(beginRound3);
 };
 var beginRound4 = function() {
@@ -212,6 +212,6 @@ var beginRound4 = function() {
     getMoneyM(player2);
     getMoneyM(player3);
     getMoneyM(player4);
-    taxpayer();
+    taxPayer();
     cWinner(beginRound4);
 };
