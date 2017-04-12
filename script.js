@@ -38,8 +38,8 @@ $(document).ready(function() {
         $(".game3").fadeIn(1000);
     });
     $(".gameiv").click(function() {
-        $('.game").hide(1000);
-        $('.game4").fadeIn(1000);
+        $(".game").hide(1000);
+        $(".game4").fadeIn(1000);
     });
 });
 
