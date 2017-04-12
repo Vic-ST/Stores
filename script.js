@@ -125,24 +125,24 @@ var cWinner = function(round) {
     }
     if (winnerList.length === 1) {
         winner1 = winnerList[0];
-        round = function() {
+        var round = function() {
             confirm(winner1.name + " won with " + winner1.money);
         };
     } else if (winnerList.length === 2) {
         winner1 = winnerList[0];
         winner2 = winnerList[1];
-        round = function() {
+        var round = function() {
             confirm(winner1.name + " and " + winner2.name + " both won with over 500,000");
         };
     } else if (winnerList.length === 3) {
         winner1 = winnerList[0];
         winner2 = winnerList[1];
         winner3 = winnerList[2];
-        round = function() {
+        var round = function() {
             confirm(winner1.name + ", " + winner2.name + ", and " + winner3.name + " all won with over 500,000");
         };
     } else if (winnerList.length === 4) {
-        round = function() {
+        var round = function() {
             confirm("Everybody won with over 500,000");
         };
     }
