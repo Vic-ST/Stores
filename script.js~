@@ -72,22 +72,22 @@ var youBuyWorkers = function(pl) {
     var max = Math.floor(pl.money/20);
     var ask = Math.abs(Math.floor(prompt(pl.name + ", how many workers would you like to buy? The most you can is " + max,max)));
     if (ask > max) {
-        customAlert("Sorry, you don't have enough money");
+        confirm("Sorry, you don't have enough money");
         youBuyWorkers(pl);
     } else if (isNaN(ask)) {
-        customAlert("Sorry, you didn't type in a number");
+        confirm("Sorry, you didn't type in a number");
         youBuyWorkers(pl);
     } else {
         pl.workers += ask;
         pl.money -= ask*20;
-        customAlert(pl.name + " bought " + pl.workers + " workers");
+        confirm(pl.name + " bought " + pl.workers + " workers");
     }
 };
 var buyWorkers = function(ai) {
     var max = Math.floor(ai.money/21);
     ai.workers += max;
     ai.money -= max*20;
-    customAlert(ai.name + " bought " + ai.workers + " workers");
+    confirm(ai.name + " bought " + ai.workers + " workers");
 };
 var getMoneyW = function(ply) {
     value = ply.workers * 5 + 5;
@@ -98,13 +98,13 @@ var getMoneyM = function(pl) {
     getMoneyW(pl);
     getMoneyW(pl);
     getMoneyW(pl);
-    customAlert(pl.name + " has " + pl.money);
+    confirm(pl.name + " has " + pl.money);
     pl.workers = 0;
 };
 var taxPayer = function() {
     round += 1;
     if (round === 6) {
-        customAlert("Tax day, everyone loses 10% of their money.");
+        confirm("Tax day, everyone loses 10% of their money.");
         var x = 6;
         while (x > -1) {
             var next = playerList[x];
@@ -114,7 +114,7 @@ var taxPayer = function() {
         round = 0;
     } else {
         var left = 6 - round;
-        customAlert("There are " + left + " days till taxday");
+        confirm("There are " + left + " days till taxday");
     }
 };
 var cWinner = function(round) {
@@ -126,24 +126,24 @@ var cWinner = function(round) {
     if (winnerList.length === 1) {
         winner1 = winnerList[0];
         var round = function() {
-            customAlert(winner1.name + " won with " + winner1.money);
+            confirm(winner1.name + " won with " + winner1.money);
         };
     } else if (winnerList.length === 2) {
         winner1 = winnerList[0];
         winner2 = winnerList[1];
         var round = function() {
-            customAlert(winner1.name + " and " + winner2.name + " both won with over 500,000");
+            confirm(winner1.name + " and " + winner2.name + " both won with over 500,000");
         };
     } else if (winnerList.length === 3) {
         winner1 = winnerList[0];
         winner2 = winnerList[1];
         winner3 = winnerList[2];
         var round = function() {
-            customAlert(winner1.name + ", " + winner2.name + ", and " + winner3.name + " all won with over 500,000");
+            confirm(winner1.name + ", " + winner2.name + ", and " + winner3.name + " all won with over 500,000");
         };
     } else if (winnerList.length === 4) {
         var round = function() {
-            customAlert("Everybody won with over 500,000");
+            confirm("Everybody won with over 500,000");
         };
     }
 };
