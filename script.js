@@ -43,7 +43,7 @@ $(document).ready(function() {
     });
 });
 
-function player(name) {
+function Player(name) {
     this.money = 15,
     this.workers = 0,
     this.name = name;
@@ -53,13 +53,13 @@ var rollDice = function() {
     return Math.floor(Math.random()*6);
 };
 //make players
-var player1 = new player("#player1");
-var player2 = new player("player2");
-var player3 = new player("player3");
-var player4 = new player("player4");
-var ai1 = new player("AI1");
-var ai2 = new player("AI2");
-var ai3 = new player("AI3");
+var player1 = new Player("#player1");
+var player2 = new Player("player2");
+var player3 = new Player("player3");
+var player4 = new Player("player4");
+var ai1 = new Player("AI1");
+var ai2 = new Player("AI2");
+var ai3 = new Player("AI3");
 var playerList = [player1,player2,player3,player4,ai1,ai2,ai3];
 var round = 0;
 var winnerList = [];
@@ -84,7 +84,7 @@ var youBuyWorkers = function(pl) {
     }
 };
 var buyWorkers = function(ai) {
-    max = Math.floor(ai.money/21);
+    var max = Math.floor(ai.money/21);
     ai.workers += max;
     ai.money -= max*20;
     confirm(ai.name + " bought " + ai.workers + " workers");
