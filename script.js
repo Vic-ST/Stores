@@ -102,7 +102,7 @@ var getMoneyM = function(pl) {
     pl.workers = 0;
 };
 var taxPayer = function() {
-    round += 1;
+    var round += 1;
     if (round === 6) {
         customAlert("Tax day, everyone loses 10% of their money.");
         var x = 6;
