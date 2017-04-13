@@ -69,8 +69,8 @@ var winner3;
     
 //functions
 var youBuyWorkers = function(pl) {
-    max = Math.floor(pl.money/20);
-    ask = Math.abs(Math.floor(prompt(pl.name + ", how many workers would you like to buy? The most you can is " + max,max)));
+    var max = Math.floor(pl.money/20);
+    var ask = Math.abs(Math.floor(prompt(pl.name + ", how many workers would you like to buy? The most you can is " + max,max)));
     if (ask > max) {
         confirm("Sorry, you don't have enough money");
         youBuyWorkers(pl);
@@ -105,7 +105,7 @@ var taxPayer = function() {
     round += 1;
     if (round === 6) {
         confirm("Tax day, everyone loses 10% of their money.");
-        x = 6;
+        var x = 6;
         while (x > -1) {
             var next = playerList[x];
             next.money *= 0.9;
