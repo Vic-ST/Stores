@@ -70,7 +70,7 @@ var winner3;
 //functions
 var youBuyWorkers = function(pl) {
     var max = Math.floor(pl.money/20);
-    var ask = Math.abs(Math.floor(customPrompt(pl.name + ", how many workers would you like to buy? The most you can is " + max,max)));
+    var ask = Math.abs(Math.floor(prompt(pl.name + ", how many workers would you like to buy? The most you can is " + max,max)));
     if (ask > max) {
         customAlert("Sorry, you don't have enough money");
         youBuyWorkers(pl);
@@ -151,7 +151,7 @@ var cWinner = function(round) {
 
 var beginRound1 = function() {
     if (player1.name === "#player1") {
-        player1.name = customPrompt("What is the first player's name?");
+        player1.name = prompt("What is the first player's name?");
     }
     youBuyWorkers(player1);
     buyWorkers(ai1);
@@ -166,8 +166,8 @@ var beginRound1 = function() {
 };
 var beginRound2 = function() {
     if (player1.name === "#player1") {
-        player1.name = customPrompt("What is the first player's name?");
-        player2.name = customPrompt("What is the second player's name?");
+        player1.name = prompt("What is the first player's name?");
+        player2.name = prompt("What is the second player's name?");
     }
     youBuyWorkers(player1);
     youBuyWorkers(player2);
@@ -182,9 +182,9 @@ var beginRound2 = function() {
 };
 var beginRound3 = function() {
     if (player1.name === "#player1") {
-        player1.name = customPrompt("What is the first player's name?");
-        player2.name = customPrompt("What is the second player's name?");
-        player3.name = customPrompt("What is the third player's name?");
+        player1.name = prompt("What is the first player's name?");
+        player2.name = prompt("What is the second player's name?");
+        player3.name = prompt("What is the third player's name?");
     }
     youBuyWorkers(player1);
     youBuyWorkers(player2);
@@ -199,10 +199,10 @@ var beginRound3 = function() {
 };
 var beginRound4 = function() {
     if (player1.name === "#player1") {
-        player1.name = customPrompt("What is the first player's name?");
-        player2.name = customPrompt("What is the second player's name?");
-        player3.name = customPrompt("What is the third player's name?");
-        player4.name = customPrompt("What is the fourth player's name?");
+        player1.name = prompt("What is the first player's name?");
+        player2.name = prompt("What is the second player's name?");
+        player3.name = prompt("What is the third player's name?");
+        player4.name = prompt("What is the fourth player's name?");
     }
     youBuyWorkers(player1);
     youBuyWorkers(player2);
