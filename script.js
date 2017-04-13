@@ -131,18 +131,18 @@ var cWinner = function(round) {
     } else if (winnerList.length === 2) {
         winner1 = winnerList[0];
         winner2 = winnerList[1];
-        var round = function() {
+        round = function() {
             customAlert(winner1.name + " and " + winner2.name + " both won with over 500,000");
         };
     } else if (winnerList.length === 3) {
         winner1 = winnerList[0];
         winner2 = winnerList[1];
         winner3 = winnerList[2];
-        var round = function() {
+        round = function() {
             customAlert(winner1.name + ", " + winner2.name + ", and " + winner3.name + " all won with over 500,000");
         };
     } else if (winnerList.length === 4) {
-        var round = function() {
+        round = function() {
             customAlert("Everybody won with over 500,000");
         };
     }
