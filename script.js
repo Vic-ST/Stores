@@ -102,7 +102,7 @@ var getMoneyM = function(pl) {
     pl.workers = 0;
 };
 var taxPayer = function() {
-    var round += 1;
+    round += 1;
     if (round === 6) {
         customAlert("Tax day, everyone loses 10% of their money.");
         var x = 6;
@@ -125,7 +125,7 @@ var cWinner = function(round) {
     }
     if (winnerList.length === 1) {
         winner1 = winnerList[0];
-        var round = function() {
+        round = function() {
             customAlert(winner1.name + " won with " + winner1.money);
         };
     } else if (winnerList.length === 2) {
