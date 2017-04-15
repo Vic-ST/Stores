@@ -5,6 +5,7 @@ $(document).ready(function() {
     $(".game3").hide();
     $(".game4").hide();
     $(".game").hide();
+    $(".audio").hide();
     $(".ruleButton").click(function() {
         $(".homePage").hide(1000);
         $(".rules").fadeIn(1000);
