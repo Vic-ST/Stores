@@ -3,10 +3,20 @@
         <head>
             <title>Stores</title>
             <link rel='stylesheet' href='style.css'>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <script src="https://code.jquery.com/jquery-latest.min.js"></script>
         </head>
         <body>
             <script src='script.js'></script>
+            <header>
+                <ul>
+                    <li class="left">Stores</li>
+                    <li class="right" onclick="play();"><span class="glyphicon glyphicon-play"></span><span class="glyphicon glyphicon-pause"></span></li>
+                </ul>
+            </header>
+            <hr/>
             <div class="homePage">
                 <h1 class="title">Stores</h1>
                 <h3 class="owners">Made by the combined effort of <a href='https://goredbirds.github.io/MyWebsite/'>GoRedbirds</a> and <a href='https://stevencopeland.github.io/new-website/'>Steven.copeland</a></h3>
@@ -24,10 +34,9 @@
                 <p>
                 <button onclick="beginRound1()" class="gameB">Begin Round</button>
                 </p>
-                <audio controls autoplay repeat class="audio">
-                    <source src="Laser Groove.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                </audio>
+                <div id="audio">
+                    
+                </div>
             </div>
             <div class='game2'>
                 <p>
