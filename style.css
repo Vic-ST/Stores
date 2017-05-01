@@ -55,3 +55,11 @@ a {
     background-color: #00ff00;
     border-radius: 10px;
 }   
+
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+}
