@@ -220,10 +220,10 @@ var beginRound4 = function() {
 var clicks = 0;
 
 var play = function() {
-    document.getElementById("audio").innerHTML = '<audio controls autoplay repeat class="audio"><source src="Laser Groove.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>'
+    document.getElementById("audio").innerHTML = "<audio controls autoplay repeat class='audio'><source src='Laser Groove.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio>";
     clicks = clicks + 1;
     if(clicks === 2) {
-        document.getElementById("audio").innerHTML = "#";
+        document.getElementById("audio").innerHTML = '#';
         clicks = 0;
     }
 };
