@@ -63,3 +63,11 @@ a {
 .right {
     float:right;
 }
+
+.middle {
+    text-align:center
+}
+
+ul {
+    list-style:none;
+}
