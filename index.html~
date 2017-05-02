@@ -13,7 +13,7 @@
             <script src='script.js'></script>
             <header>
                 <ul>
-                    <li class="left"><img src="logo(2)"/></li>
+                    <li class="left">Stores</li>
                     <li class="right" onclick="play();"><span class="glyphicon glyphicon-play" id="circle"></span><span id="circle" class="glyphicon glyphicon-pause"></span></li>
                     <li class="middle"><a href="https://github.com/StevenCopeland/Stores"><span class="fa fa-github"></span></a></li>
                     
