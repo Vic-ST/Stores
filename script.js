@@ -148,26 +148,6 @@ var cWinner = function(round) {
         };
     }
 };
-
-var stats1 = function() {
-    var moneyId = document.getElementById("money");
-    var workersId = document.getElementById("workers");
-    var nameId = document.getElementById("name");
-    
-    var getName = function(name) {
-        nameId.innerHTML = "<span id='name'>Name: " + name + ",";
-    };
-    var getMoney = function(money) {
-        moneyId.innerHTML = "<span id='money'>Money: $" + money + ",";
-    };
-    var getWorkers = function(workers) {
-        workersId.innerHTML = "<span id='workers'>Workers: " + workers;
-    };
-    getName(player1.name);
-    getMoney(player1.money);
-    getWorkers(player1.workers);
-};
-
 //begin round functions
 
 var beginRound1 = function() {
