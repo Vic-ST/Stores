@@ -156,13 +156,16 @@ var stats1 = function() {
     
     var getName = function(name) {
         nameId.innerHTML = "<span id='name'>Name: " + name + ",";
-    }
+    };
     var getMoney = function(money) {
         moneyId.innerHTML = "<span id='money'>Money: $" + money + ",";
-    }
+    };
     var getWorkers = function(workers) {
         workersId.innerHTML = "<span id='workers'>Workers: " + workers;
-    }
+    };
+    getName(player1.name);
+    getMoney(player1.money);
+    getWorkers(player1.workers);
 };
 
 //begin round functions
@@ -181,6 +184,7 @@ var beginRound1 = function() {
     getMoneyM(ai3);
     taxPayer();
     cWinner(beginRound1);
+    stats1();
 };
 var beginRound2 = function() {
     if (player1.name === "#player1") {
