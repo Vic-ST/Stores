@@ -184,7 +184,6 @@ var beginRound1 = function() {
     getMoneyM(ai3);
     taxPayer();
     cWinner(beginRound1);
-    stats1();
 };
 var beginRound2 = function() {
     if (player1.name === "#player1") {
