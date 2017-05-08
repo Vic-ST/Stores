@@ -160,6 +160,9 @@ var stats1 = function() {
     var getMoney = function(money) {
         moneyId.innerHTML = "<span id='money'>Money: $" + money + ",";
     }
+    var getWorkers = function(workers) {
+        workersId.innerHTML = "<span id='workers'>Workers: " + workers;
+    }
 };
 
 //begin round functions
