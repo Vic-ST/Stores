@@ -148,6 +148,20 @@ var cWinner = function(round) {
         };
     }
 };
+
+var stats1 = function() {
+    var moneyId = document.getElementById("money");
+    var workersId = document.getElementById("workers");
+    var nameId = document.getElementById("name");
+    
+    var getName = function(name) {
+        nameId.innerHTML = "<span id='name'>Name: " + name + ",";
+    }
+    var getMoney = function(money) {
+        moneyId.innerHTML = "<span id='money'>Money: $" + money + ",";
+    }
+};
+
 //begin round functions
 
 var beginRound1 = function() {
