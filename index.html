@@ -9,7 +9,7 @@
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <script src="https://code.jquery.com/jquery-latest.min.js"></script>
         </head>
-        <body onload="stats1();">
+        <body>
             <script src='script.js'></script>
             <header>
                 <ul class="none">
@@ -35,11 +35,11 @@
             </div>
             <div class="game1">
                 <p>
-                <button onclick="beginRound1()" class="gameB">Begin Round</button>
+                <button onclick="beginRound1()" class="gameB" onclick="stats1();">Begin Round</button>
                 </p>
                 <div id="stats">
-                    <span id="name">Name:</span>
-                    <span id="money">Money: $15,</span>
+                    <span id="name">Name:</span><br/>
+                    <span id="money">Money: $15,</span><br/>
                     <span id="workers">Workers: 0</span>
                 </div>
                 <div id="audio">
