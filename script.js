@@ -240,7 +240,7 @@ var beginRound4 = function() {
 var clicks = 0;
 
 var play = function() {
-    document.getElementById("audio").innerHTML = "<audio style='display:none;' controls autoplay loop='loop' class='audio'><source src='Laser Groove.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio>";
+    document.getElementById("audio").innerHTML = "<audio style='display:none;' controls autoplay loop='loop' class='audio'><source src='Laser Groove.mp3' type='audio/mpeg'>Your browser does not support the audio element. Please switch to another brower to listen to the music.</audio>";
     clicks = clicks + 1;
     if(clicks === 2) {
         document.getElementById("audio").innerHTML = "#";
