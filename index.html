@@ -35,7 +35,7 @@
             </div>
             <div class="game1">
                 <p>
-                <button onclick="beginRound1()" class="gameB" onclick="stats1();">Begin Round</button>
+                <button onclick="beginRound(player1, "","","",beginRound1,1)" class="gameB" onclick="stats1();">Begin Round</button>
                 </p>
                 <div id="stats">
                     <span id="name">Name:</span><br/>
@@ -48,7 +48,7 @@
             </div>
             <div class='game2'>
                 <p>
-                <button onclick='beginRound2()' class='gameB'>Begin round</button>
+                <button onclick='beginRound2(player1, player2, "","",beginRound2, 2)' class='gameB'>Begin round</button>
                 </p>
                 <div id="stats">
                     Name:
@@ -63,7 +63,7 @@
             </div>
             <div class='game3'>
                 <p>
-                <button onclick='beginRound3()' class='gameB'>Begin Round</button>
+                <button onclick='beginRound3(player1, player2, player3, "",beginRound3, 3)' class='gameB'>Begin Round</button>
                 </p>
                 <div id="stats">
                     Name:
@@ -83,7 +83,7 @@
             </div>
             <div class='game4'>
                 <p>
-                <button onclick='beginRound4()' class='gameB'>Begin Round</button>
+                <button onclick='beginRound4(player1, player2, player3, player4,beginRound4,4)' class='gameB'>Begin Round</button>
                 </p>
                 <div id="stats">
                     Name:
