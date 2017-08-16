@@ -170,60 +170,90 @@ var stats1 = function() {
 
 //begin round functions
 
-var beginRound1 = function() {
-    if (player1.name === "#player1") {
+// var beginRound1 = function() {
+//     if (player1.name === "#player1") {
+//         player1.name = prompt("What is the first player's name?");
+//     }
+//     youBuyWorkers(player1);
+//     buyWorkers(ai1);
+//     buyWorkers(ai2);
+//     buyWorkers(ai3);
+//     getMoneyM(player1);
+//     getMoneyM(ai1);
+//     getMoneyM(ai2);
+//     getMoneyM(ai3);
+//     taxPayer();
+//     cWinner(beginRound1);
+// };
+// var beginRound2 = function() {
+//     if (player1.name === "#player1") {
+//         player1.name = prompt("What is the first player's name?");
+//         player2.name = prompt("What is the second player's name?");
+//     }
+//     youBuyWorkers(player1);
+//     youBuyWorkers(player2);
+//     buyWorkers(ai1);
+//     buyWorkers(ai2);
+//     getMoneyM(player1);
+//     getMoneyM(player2);
+//     getMoneyM(ai1);
+//     getMoneyM(ai2);
+//     taxPayer();
+//     cWinner(beginRound2);
+// };
+// var beginRound3 = function() {
+//     if (player1.name === "#player1") {
+//         player1.name = prompt("What is the first player's name?");
+//         player2.name = prompt("What is the second player's name?");
+//         player3.name = prompt("What is the third player's name?");
+//     }
+//     youBuyWorkers(player1);
+//     youBuyWorkers(player2);
+//     youBuyWorkers(player3);
+//     buyWorkers(ai1);
+//     getMoneyM(player1);
+//     getMoneyM(player2);
+//     getMoneyM(player3);
+//     getMoneyM(ai1);
+//     taxPayer();
+//     cWinner(beginRound3);
+// };
+// var beginRound4 = function() {
+//     if (player1.name === "#player1") {
+//         player1.name = prompt("What is the first player's name?");
+//         player2.name = prompt("What is the second player's name?");
+//         player3.name = prompt("What is the third player's name?");
+//         player4.name = prompt("What is the fourth player's name?");
+//     }
+//     youBuyWorkers(player1);
+//     youBuyWorkers(player2);
+//     youBuyWorkers(player3);
+//     youBuyWorkers(player4);
+//     getMoneyM(player1);
+//     getMoneyM(player2);
+//     getMoneyM(player3);
+//     getMoneyM(player4);
+//     taxPayer();
+//     cWinner(beginRound4);
+// };
+
+var beginRound = function(player1,player2,player3,player4,beginRound,number) {
+    if(number === 1) {
         player1.name = prompt("What is the first player's name?");
-    }
-    youBuyWorkers(player1);
-    buyWorkers(ai1);
-    buyWorkers(ai2);
-    buyWorkers(ai3);
-    getMoneyM(player1);
-    getMoneyM(ai1);
-    getMoneyM(ai2);
-    getMoneyM(ai3);
-    taxPayer();
-    cWinner(beginRound1);
-};
-var beginRound2 = function() {
-    if (player1.name === "#player1") {
+    }else if(number === 2) {
         player1.name = prompt("What is the first player's name?");
         player2.name = prompt("What is the second player's name?");
-    }
-    youBuyWorkers(player1);
-    youBuyWorkers(player2);
-    buyWorkers(ai1);
-    buyWorkers(ai2);
-    getMoneyM(player1);
-    getMoneyM(player2);
-    getMoneyM(ai1);
-    getMoneyM(ai2);
-    taxPayer();
-    cWinner(beginRound2);
-};
-var beginRound3 = function() {
-    if (player1.name === "#player1") {
+    }else if(number === 3) {
         player1.name = prompt("What is the first player's name?");
         player2.name = prompt("What is the second player's name?");
         player3.name = prompt("What is the third player's name?");
-    }
-    youBuyWorkers(player1);
-    youBuyWorkers(player2);
-    youBuyWorkers(player3);
-    buyWorkers(ai1);
-    getMoneyM(player1);
-    getMoneyM(player2);
-    getMoneyM(player3);
-    getMoneyM(ai1);
-    taxPayer();
-    cWinner(beginRound3);
-};
-var beginRound4 = function() {
-    if (player1.name === "#player1") {
+    }else if(number === 4) {
         player1.name = prompt("What is the first player's name?");
         player2.name = prompt("What is the second player's name?");
         player3.name = prompt("What is the third player's name?");
         player4.name = prompt("What is the fourth player's name?");
+    }else{
+        alert("Sorry! An internal error occured");
     }
     youBuyWorkers(player1);
     youBuyWorkers(player2);
@@ -234,7 +264,7 @@ var beginRound4 = function() {
     getMoneyM(player3);
     getMoneyM(player4);
     taxPayer();
-    cWinner(beginRound4);
+    cWinner(beginRound);
 };
 
 var clicks = 0;
