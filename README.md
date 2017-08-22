@@ -24,7 +24,7 @@ Read the <a href="https://github.com/StevenCopeland/Stores/wiki">Stores Wiki</a>
 <li>You start out with $15</li>
 <li>Every turn, you choose how many workers to buy. Workers cost $20PW(<b>P</b>er <b>W</b>orker).</li>
 <li>For every worker you buy, you earn more money each round</li>
-<li>Whoever earns 500,000 first wins! Note: <i>It is possible for all four people to win.</i></li>
+<li>Whoever earns $500,000 first wins! Note: <i>It is possible for all four people to win.</i></li>
 </ul>
 
 ###### * the other players will be computer controlled. There will be always four players playing.
